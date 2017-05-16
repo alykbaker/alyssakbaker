@@ -546,6 +546,22 @@ ol.list li:hover {
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
 }
+.year{
+	font-weight: 400;
+	font-size: 1.6em;
+}
+.years .top {
+	margin: 1em 0 0 -0.25em;
+}
+.years .bottom {
+	margin: 0.1em 0 0 1em;
+}
+.years .dash {
+	color: rgba( 98, 156, 167, 0.4);
+	font-size: 3em;
+	font-weight: 900;
+	margin: -0.1em 0 0 0;
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
