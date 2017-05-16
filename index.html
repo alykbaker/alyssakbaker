@@ -15,13 +15,13 @@
 <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
 <!-- Stylesheet
     ================================================== -->
 <link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -143,145 +143,101 @@
       </ul>
       <div class="clearfix"></div>
     </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 prototype portfolio-item">
-            <div class="hover-bg"> 
-                <div class="Naturcenter">
-                    <a href="img/portfolio/NaturcenterAmager/HomePage-large.jpg" title="The front page of a prototype created for Naturcenter Amager as part of a co-design project." rel="prettyPhoto[NA_gal]">
-                        <img src="img/portfolio/NaturcenterAmager/HomePage-small.jpg" class="img-responsive" alt="Naturcenter Amager">
-                    </a>
-                    <span style="display: none;">
-                      <a href="img/portfolio/NaturcenterAmager/GraphTypes-large.jpg" title="Page of the prototype on which visitors choose how to display data." rel="prettyPhoto[NA_gal]">
-                          <img src="img/portfolio/NaturcenterAmager/HomePage-small.jpg" class="img-responsive" alt="Naturcenter Amager">
-                      </a>
-                      <a href="img/portfolio/NaturcenterAmager/DataTypes-large.jpg" title="Page of the prototype on which users choose which data they want to compare." rel="prettyPhoto[NA_gal]">
-                        <img src="img/portfolio/NaturcenterAmager/HomePage-small.jpg" class="img-responsive" alt="Naturcenter Amager">
-                      </a>
-                    </span>
-                  <div class="hover-text">
-                    <h4>Naturcenter Amager</h4>
-                    <small>Prototypes</small> 
-                  </div>
-                </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster">
-            <div class="hover-bg"> 
-                <div class="Animals">
-                    <a href="img/portfolio/GeometricAnimals/Robin-large.jpg" title="A geometric interpretation of a robin made for fun." rel="prettyPhoto[Animal_gal]">
-                        <img src="img/portfolio/GeometricAnimals/Robin-small.jpg" class="img-responsive" alt="Geometric Animals">
-                    </a>
-                    <span style="display: none;">
-                      <a href="img/portfolio/GeometricAnimals/Fox-large.jpg" title="A geometric interpretation of a fox made for fun." rel="prettyPhoto[Animal_gal]">
-                          <img src="img/portfolio/GeometricAnimals/Robin-small.jpg" class="img-responsive" alt="Geometric Animals">
-                      </a>
-                      <a href="img/portfolio/GeometricAnimals/Blue%20Jay-80.jpg" title="A geometric interpretation of a bluejay made for fun." rel="prettyPhoto[Animal_gal]">
-                        <div class="hover-text">
-                          <h4>Geometric Animals</h4>
-                          <small>Infographics & Posters</small> 
-                        </div>
-                      </a>
-                    </span>
-                </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster">
-            <div class="hover-bg"> 
-              <a href="img/portfolio/Adobe-medium.jpg" title="A poster designed to display the complex system of Adobe products." rel="prettyPhoto">
+    <div class="portfolio-items">
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item hover-bg prototype">
+            <div id="Naturecenter">
+              <a href="img/portfolio/NaturcenterAmager/HomePage-large.jpg" title="The front page of a prototype created for Naturcenter Amager as part of a co-design project." data-lightbox="naturecenter">
                 <div class="hover-text">
-                  <h4>Adobe Systems</h4>
-                  <small>Infographics & Posters</small> 
-                </div>
-                <img src="img/portfolio/Adobe-small.png" class="img-responsive" alt="Adobe Systems"> 
-              </a> 
+                  <h4>Naturcenter Amager</h4>
+                  <small>Prototypes</small> 
+                </div>  
+                <img src="img/portfolio/NaturcenterAmager/HomePage-small.jpg" class="img-responsive" alt="Naturcenter Amager">
+              </a>
+              <a href="img/portfolio/NaturcenterAmager/GraphTypes-large.jpg" title="Page of the prototype on which visitors choose how to display data." data-lightbox="naturecenter"></a>
+              <a href="img/portfolio/NaturcenterAmager/DataTypes-large.jpg" title="Page of the prototype on which users choose which data they want to compare." data-lightbox="naturecenter"></a>
             </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item additional">
-            <div class="hover-bg"> 
-                <div class="GenderBot">
-                  <a href="img/portfolio/GenderBot/JamiePoster.JPG" title="A machine learning project which attempted to guess gender based on walking style." rel="prettyPhoto[Jamie_gal]">
-                      <img src="img/portfolio/GenderBot/GenderPoster-small.jpeg" class="img-responsive" alt="Jamie the GenderBot">
-                  </a>
-                  <a href="img/portfolio/GenderBot/JamieWalkway.JPG" title="The project used a red carpet, LED lights, a Kinect, and a computer." rel="prettyPhoto[Jamie_gal]">
-                      <img src="img/portfolio/GenderBot/GenderPoster-small.jpeg" class="img-responsive" alt="Jamie the GenderBot">
-                  </a>
-                  <a href="img/portfolio/GenderBot/JamieScreenshot.png" title="The Kinect provided points of analysis for machine learning." rel="prettyPhoto[Jamie_gal]">
-                  <div class="hover-text">
-                    <h4>Jamie the GenderBot</h4>
-                    <small>Additional</small> 
-                  </div>
-                  <img src="img/portfolio/GenderBot/GenderPoster-small.jpeg" class="img-responsive" alt="Jamie the GenderBot"> </a> 
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster">
-          <div class="hover-bg"> 
-            <a href="img/portfolio/30MillionWords.jpeg" title="A project to create a poster for the 30 million words campaign." rel="prettyPhoto">
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster hover-bg">
+          <a href="img/portfolio/GeometricAnimals/Robin-large.jpg" title="A geometric interpretation of a robin made for fun." data-lightbox="animals">
               <div class="hover-text">
-                <h4>30 Million Words</h4>
+                <h4>Geometric Animals</h4>
                 <small>Infographics & Posters</small> 
               </div>
-              <img src="img/portfolio/30MillionWords-small.jpg" class="img-responsive" alt="30 Million Words"> 
+              <img src="img/portfolio/GeometricAnimals/Robin-small.jpg" class="img-responsive" alt="Geometric Animals">
+          </a>
+          <a href="img/portfolio/GeometricAnimals/Fox-large.jpg" title="A geometric interpretation of a fox made for fun." data-lightbox="animals"></a>
+          <a href="img/portfolio/GeometricAnimals/Blue%20Jay-80.jpg" title="A geometric interpretation of a bluejay made for fun." data-lightbox="animals"></a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster hover-bg">
+          <a href="img/portfolio/Adobe-medium.jpg" title="A poster designed to display the complex system of Adobe products." data-lightbox="adobe">
+            <div class="hover-text">
+              <h4>Adobe Systems</h4>
+              <small>Infographics & Posters</small> 
+            </div>
+            <img src="img/portfolio/Adobe-small.png" class="img-responsive" alt="Adobe Systems"> 
+          </a> 
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item additional hover-bg"> 
+          <div class="GenderBot">
+            <a href="img/portfolio/GenderBot/JamiePoster.JPG" title="A machine learning project which attempted to guess gender based on walking style." data-lightbox="genderBot">
+              <div class="hover-text">
+                <h4>Jamie the GenderBot</h4>
+                <small>Additional</small> 
+              </div>
+              <img src="img/portfolio/GenderBot/GenderPoster-small.jpeg" class="img-responsive" alt="Jamie the GenderBot">
             </a>
+            <a href="img/portfolio/GenderBot/JamieWalkway.JPG" title="The project used a red carpet, LED lights, a Kinect, and a computer." data-lightbox="genderBot"></a>
+            <a href="img/portfolio/GenderBot/JamieScreenshot.png" title="The Kinect provided points of analysis for machine learning." data-lightbox="genderBot"></a> 
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster">
-          <div class="hover-bg"> 
-            <div class="GrandChallenges">
-              <a href="img/portfolio/Tree/Tree1-large.jpg" title="Part of a two-year long project to teach high schoolers about renewable energy." rel="prettyPhoto[tree_gal]"> 
-                <img src="img/portfolio/Tree/Tree1-small.jpg" class="img-responsive" alt="Grand Challenges Poster">
-              </a>
-              <a href="img/portfolio/Tree/Tree2-large.jpg" title="These posters were used to showcase how the project was progressing, as well as plans for the future." rel="prettyPhoto[tree_gal]">
-                <div class="hover-text">
-                  <h4>Grand Challenges</h4>
-                  <small>Infographics & Posters</small> 
-                </div>
-                <img src="img/portfolio/Tree/Tree1-small.jpg" class="img-responsive" alt="Grand Challenges Poster"> 
-              </a> 
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster hover-bg">
+          <a href="img/portfolio/30MillionWords.jpeg" title="A project to create a poster for the 30 million words campaign." data-lightbox="30millionWords">
+            <div class="hover-text">
+              <h4>30 Million Words</h4>
+              <small>Infographics & Posters</small> 
             </div>
+            <img src="img/portfolio/30MillionWords-small.jpg" class="img-responsive" alt="30 Million Words"> 
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster hover-bg">
+          <div class="GrandChallenges">
+            <a href="img/portfolio/Tree/Tree1-large.jpg" title="Part of a two-year long project to teach high schoolers about renewable energy." data-lightbox="GrandChallenges"> 
+              <div class="hover-text">
+                <h4>Grand Challenges</h4>
+                <small>Infographics & Posters</small> 
+              </div>
+              <img src="img/portfolio/Tree/Tree1-small.jpg" class="img-responsive" alt="Grand Challenges Poster">
+            </a>
+            <a href="img/portfolio/Tree/Tree2-large.jpg" title="These posters were used to showcase how the project was progressing, as well as plans for the future." data-lightbox="GrandChallenges"></a> 
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item prototype">
-          <div class="hover-bg"> 
-            <div class="Coop">
-              <a href="img/portfolio/Coop/HomePage-large.png" title="A project for fun, to create a website for people who raise chickens." rel="prettyPhoto[Coop_gal]">
-                <img src="img/portfolio/Coop/HomePage-small.png" class="img-responsive" alt="The Coop">
-              </a>
-              <a href="img/portfolio/Coop/Breed-large.png" title="The challenge was to use a natural palette seen on chicken eggs, and no other colors." rel="prettyPhoto[Coop_gal]">
-                <img src="img/portfolio/Coop/HomePage-small.png" class="img-responsive" alt="The Coop">
-              </a>
-              <a href="img/portfolio/Coop/CitySearch-large.png" title="This also required large amounts of research and anticipating user needs, as I knew nothing about raising chickens." rel="prettyPhoto[Coop_gal]">
-                <div class="hover-text">
-                  <h4>The Coop</h4>
-                  <small>Prototypes</small> 
-                </div>
-                <img src="img/portfolio/Coop/HomePage-small.png" class="img-responsive" alt="The Coop"> 
-              </a> 
-            </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item prototype hover-bg">
+          <div class="Coop">
+            <a href="img/portfolio/Coop/HomePage-large.png" title="A project for fun, to create a website for people who raise chickens." data-lightbox="coop">
+              <div class="hover-text">
+                <h4>The Coop</h4>
+                <small>Prototypes</small> 
+              </div>
+              <img src="img/portfolio/Coop/HomePage-small.png" class="img-responsive" alt="The Coop">
+            </a>
+            <a href="img/portfolio/Coop/Breed-large.png" title="The challenge was to use a natural palette seen on chicken eggs, and no other colors." data-lightbox="coop"></a>
+            <a href="img/portfolio/Coop/CitySearch-large.png" title="This also required large amounts of research and anticipating user needs, as I knew nothing about raising chickens." data-lightbox="coop"></a> 
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item additional">
-          <div class="hover-bg"> 
-            <div class="DigitalPlay">
-              <a href="img/portfolio/DigitalPlay/WebScreenshot-large.png" title="A project to create a playful digital experience, while interacting with stereotypes." rel="prettyPhoto[Play_gal]">
-                <img src="img/portfolio/DigitalPlay/WebScreenshot-small.png" class="img-responsive" alt="Cultural Dating Simulator">
-              </a>
-              <a href="img/portfolio/DigitalPlay/OpeningScreen-large.png" title="The final result was a quiz which matched users with different nationalities based on their answers." rel="prettyPhoto[Play_gal]">
-                <img src="img/portfolio/DigitalPlay/WebScreenshot-small.png" class="img-responsive" alt="Cultural Dating Simulator">
-              </a>
-              <a href="img/portfolio/DigitalPlay/FeedbackSurvery-full.png" title="The project also included a survey for users to discuss their experience and provide feedback." rel="prettyPhoto[Play_gal]">
-                <div class="hover-text">
-                  <h4>Cultural Dating Simulator</h4>
-                  <small>Additional</small> 
-                </div>
-                <img src="img/portfolio/DigitalPlay/WebScreenshot-small.png" class="img-responsive" alt="Cultural Dating Simulator"> 
-              </a> 
-            </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item additional hover-bg">
+          <div class="DigitalPlay">
+            <a href="img/portfolio/DigitalPlay/WebScreenshot-large.png" title="A project to create a playful digital experience, while interacting with stereotypes." data-lightbox="DigitalPlay">
+              <div class="hover-text">
+                <h4>Cultural Dating Simulator</h4>
+                <small>Additional</small> 
+              </div>
+              <img src="img/portfolio/DigitalPlay/WebScreenshot-small.png" class="img-responsive" alt="Cultural Dating Simulator">
+            </a>
+            <a href="img/portfolio/DigitalPlay/OpeningScreen-large.png" title="The final result was a quiz which matched users with different nationalities based on their answers." data-lightbox="DigitalPlay"></a>
+            <a href="img/portfolio/DigitalPlay/FeedbackSurvery-full.png" title="The project also included a survey for users to discuss their experience and provide feedback." data-lightbox="DigitalPlay"></a> 
           </div>
         </div>
       </div>
@@ -559,13 +515,11 @@
     </div>
   </div>
 </div>
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lightbox.min.js"></script>
 <script type="text/javascript" src="js/SmoothScroll.js"></script> 
 <script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jquery.counterup.js"></script> 
 <script type="text/javascript" src="js/waypoints.js"></script> 
