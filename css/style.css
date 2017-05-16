@@ -551,7 +551,7 @@ ol.list li:hover {
 	font-size: 1.6em;
 }
 .years .top {
-	margin: 1em 0 0 -0.25em;
+	margin: -0.1em 0 0 -0.25em;
 }
 .years .bottom {
 	margin: 0.1em 0 0 1em;
@@ -559,8 +559,8 @@ ol.list li:hover {
 .years .dash {
 	color: rgba( 98, 156, 167, 0.4);
 	font-size: 3em;
-	font-weight: 900;
-	margin: -0.1em 0 0 0;
+	font-weight: 800;
+	margin: -0.15em 0 0 0;
 }
 /* Contact Section */
 #contact {
