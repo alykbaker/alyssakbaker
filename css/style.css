@@ -338,8 +338,8 @@ ol.type li a:hover {
 	-o-transform: scale(1.1);
 	transform: scale(1.1);
 }
-.portfolio-item .hover-bg {
-	position: relative;
+.img-responsive {
+	margin: 0 auto;
 }
 .hover-bg .hover-text {
 	position: absolute;
