@@ -126,20 +126,16 @@
       <hr>
     </div>
     <div class="categories">
-      <ul>
-        <li>
-          <ol class="type cat">
-            <li><a href="javascript:void(0);" data-filter="*" class="active">All</a></li>
-            <li><a href="javascript:void(0);" data-filter=".prototype">Prototypes</a></li>
-            <li><a href="javascript:void(0);" data-filter=".poster">Infographics & Posters</a></li>
-            <li><a href="javascript:void(0);" data-filter=".additional">Additional</a></li>
-          </ol>
-        </li>
-      </ul>
+      <div class="button-group filters-button-group">
+        <button class="button btn-secondary is-checked" data-filter="*">All</button>
+        <button class="button btn-secondary" data-filter=".prototype">Prototypes</button>
+        <button class="button btn-secondary" data-filter=".poster">Infogrpahics & Posters</button>
+        <button class="button btn-secondary" data-filter=".additional">Additional</button>
+      </div>
       <div class="clearfix"></div>
     </div>
     <div class="row">
-      <div class="portfolio-items">
+      <div id="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item hover-bg prototype">
             <div id="Naturecenter">
               <a href="img/portfolio/NaturcenterAmager/HomePage-large.jpg" title="The front page of a prototype created for Naturcenter Amager as part of a co-design project." data-lightbox="naturecenter">

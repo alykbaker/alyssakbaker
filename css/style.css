@@ -281,7 +281,7 @@ ol.type li a {
 	color: #fff;
 	padding: 6px 14px;
 }
-ol.type li a.active {
+ol.type li a.active{
 	background: #121d1f;
 	color: #fff;
 }

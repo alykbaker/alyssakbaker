@@ -62,27 +62,17 @@ main();
   $(".learned_item").click(function() {
     $( this ).toggleClass("selected");
   });
-  
-  var $container = $('.portfolio-items');
+
+  var $container = $( '#portfolio-items' );
+
   $container.isotope({
-    filter: '*',
-    animationOptions: {
-      duration: 750,
-      easing: 'linear',
-      queue: false
-    }
+    animationEngine: 'best-available',
+    itemSelector: '.portfolio-item'
   });
-      
-  $('.cat li a').on( 'click' , function() {
-    var filterValue = $(this).attr('data-filter');
-    
-    $(this).addClass('active');
-      $container.isotope({
-        filter: filterValue,
-        animationOptions: {
-          duration: 750,
-          easing: 'linear',
-          queue: false
-        }
+
+  $( '.filters-button-group' ).on( 'click', 'button', function() {
+    var selector = $(this).data('filter');
+    $container.isotope({
+      filter: selector
     });
-});
+  });
