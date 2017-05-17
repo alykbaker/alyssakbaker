@@ -425,6 +425,7 @@ ul.learn li {
 ol.list li {
 	display: inline-block;
 	margin-left: 20px;
+    cursor: pointer;
 }
 ol.list li {
 	background: #fff;
