@@ -344,7 +344,7 @@ ol.type li a:hover {
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
-	margin: 0 auto;
+	margin: 0 0 0 -1em;
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.66);
 	padding: 33% 0 0 0;
@@ -425,6 +425,7 @@ ul.learn li {
 ol.list li {
 	display: inline-block;
 	margin-left: 20px;
+    cursor: pointer;
 }
 ol.list li {
 	background: #fff;
