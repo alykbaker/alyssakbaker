@@ -402,27 +402,27 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Achivements Section */
-#achievements {
+/* Experience Section */
+#experience {
 	padding: 50px 0;
 	background: #7bc3d1;
 }
-#achievements h2 {
+#experience h2 {
 	color: #fff;
 }
-#achievements hr {
+#experience hr {
 	background: rgba(255,255,255,0.3);
 }
-#achievements p {
+#experience p {
     color: #121d1f;
 }
-.achievement-box h4 {
+.experience-box h4 {
 	color: #fff;
 	font-size: 20px;
 	font-weight: 400;
 	margin-left: 5px;
 }
-.achievement-box span.count {
+.experience-box span.count {
 	font-size: 52px;
 	font-weight: 600;
 	display: block;
