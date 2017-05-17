@@ -63,16 +63,25 @@ main();
     $( this ).toggleClass("selected");
   });
 
+  // Define Isotope Container
   var $container = $( '#portfolio-items' );
-
+  // Initialize Isotope
   $container.isotope({
     animationEngine: 'best-available',
     itemSelector: '.portfolio-item'
   });
-
+  // Make the buttons filter
   $( '.filters-button-group' ).on( 'click', 'button', function() {
     var selector = $(this).data('filter');
     $container.isotope({
       filter: selector
+    });
+  });
+  // change is-checked class on buttons
+  $( '.button-group' ).each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find( '.is-checked' ).removeClass( 'is-checked' );
+      $( this ).addClass( 'is-checked' );
     });
   });
