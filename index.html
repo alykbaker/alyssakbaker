@@ -26,11 +26,6 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<script>
-    $(".learned_item").click(function() {
-        $( this ).toggleClass("selected");
-    });
-</script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -131,20 +126,20 @@
       <hr>
     </div>
     <div class="categories">
-      <ul class="cat">
+      <ul>
         <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".prototype">Prototypes</a></li>
-            <li><a href="#" data-filter=".poster">Infographics & Posters</a></li>
-            <li><a href="#" data-filter=".additional">Additional</a></li>
+          <ol class="type cat">
+            <li><a href="javascript:void(0);" data-filter="*" class="active">All</a></li>
+            <li><a href="javascript:void(0);" data-filter=".prototype">Prototypes</a></li>
+            <li><a href="javascript:void(0);" data-filter=".poster">Infographics & Posters</a></li>
+            <li><a href="javascript:void(0);" data-filter=".additional">Additional</a></li>
           </ol>
         </li>
       </ul>
       <div class="clearfix"></div>
     </div>
-    <div class="portfolio-items">
-      <div class="row">
+    <div class="row">
+      <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item hover-bg prototype">
             <div id="Naturecenter">
               <a href="img/portfolio/NaturcenterAmager/HomePage-large.jpg" title="The front page of a prototype created for Naturcenter Amager as part of a co-design project." data-lightbox="naturecenter">
@@ -191,8 +186,6 @@
             <a href="img/portfolio/GenderBot/JamieScreenshot.png" title="The Kinect provided points of analysis for machine learning." data-lightbox="genderBot"></a> 
           </div>
         </div>
-      </div>
-      <div class="row">
         <div class="col-sm-6 col-md-3 col-lg-3 portfolio-item poster hover-bg">
           <a href="img/portfolio/30MillionWords.jpeg" title="A project to create a poster for the 30 million words campaign." data-lightbox="30millionWords">
             <div class="hover-text">
