@@ -584,6 +584,9 @@ ol.list li:hover {
 	}
 }
 @media screen and (max-width:768px) {
+	.timeline:before {
+		display:none;
+	}
 	.timeline>li .timeline-image {
 		border:none;
 		background:none;
