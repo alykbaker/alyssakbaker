@@ -177,7 +177,7 @@ hr {
 	border-color: #7bc3d1;
 	padding: 10px 20px;
 	border-radius: 0;
-	margin: 0 1em;
+	margin: 1em;
 }
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus, .btn-secondary:active, .btn-secondary.active {
 	color: #fff;
