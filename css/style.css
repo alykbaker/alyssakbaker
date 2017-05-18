@@ -578,6 +578,29 @@ ol.list li:hover {
 	font-weight: 800;
 	margin: -0.15em 0 0 0;
 }
+@media screen and (max-width: 991px) {
+	.years .top {
+		margin: 1.05em 0 0 -0.25em;
+	}
+}
+@media screen and (max-width:768px) {
+	.timeline>li .timeline-image {
+		border:none;
+		background:none;
+	}
+	.timeline>li .timeline-image h4 {
+		margin-top:-0.25em;
+	}
+	.years .top {
+		margin: 0 0 0 -0.25em;
+	}
+	.years .dash {
+		margin:-0.5em 0 0 0;
+	}
+	.years .bottom {
+		margin: -0.5em 0 0 1em;
+	}
+}
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
@@ -784,7 +807,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 		margin-left: -75px;
 	}
 	.timeline>li .timeline-image h4 {
-		margin-top: 30px;
+		margin-top: 40px;
 		font-size: 18px;
 		line-height: 26px;
 	}
